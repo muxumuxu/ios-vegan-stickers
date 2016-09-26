@@ -1,9 +1,38 @@
 {
+  "stickers" : [
+    {
+      "filename" : "animal-lover.sticker"
+    },
+    {
+      "filename" : "cruelty-free.sticker"
+    },
+    {
+      "filename" : "dairy-free.sticker"
+    },
+    {
+      "filename" : "go-vegan.sticker"
+    },
+    {
+      "filename" : "plant-based.sticker"
+    },
+    {
+      "filename" : "respect.sticker"
+    },
+    {
+      "filename" : "vegan-4-life.sticker"
+    },
+    {
+      "filename" : "vegan-power.sticker"
+    },
+    {
+      "filename" : "yes-vegan.sticker"
+    }
+  ],
   "info" : {
     "version" : 1,
     "author" : "xcode"
   },
   "properties" : {
-    "grid-size" : "regular"
+    "grid-size" : "small"
   }
 }
