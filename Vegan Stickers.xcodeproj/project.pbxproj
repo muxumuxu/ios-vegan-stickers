@@ -1,0 +1,332 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5860AD881D998B4A005B4146 /* StickerPackExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 5860AD871D998B4A005B4146 /* StickerPackExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		5860AD8C1D998B4A005B4146 /* Stickers.xcstickers in Resources */ = {isa = PBXBuildFile; fileRef = 5860AD8B1D998B4A005B4146 /* Stickers.xcstickers */; };
+		5860AD8D1D998B4A005B4146 /* Stickers.xcstickers in Resources */ = {isa = PBXBuildFile; fileRef = 5860AD8B1D998B4A005B4146 /* Stickers.xcstickers */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5860AD891D998B4A005B4146 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5860AD7D1D998B4A005B4146 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5860AD861D998B4A005B4146;
+			remoteInfo = StickerPackExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5860AD931D998B4A005B4146 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				5860AD881D998B4A005B4146 /* StickerPackExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5860AD831D998B4A005B4146 /* Vegan Stickers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Vegan Stickers.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5860AD871D998B4A005B4146 /* StickerPackExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = StickerPackExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		5860AD8B1D998B4A005B4146 /* Stickers.xcstickers */ = {isa = PBXFileReference; lastKnownFileType = folder.stickers; name = Stickers.xcstickers; path = StickerPackExtension/Stickers.xcstickers; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		5860AD7C1D998B4A005B4146 = {
+			isa = PBXGroup;
+			children = (
+				5860AD8B1D998B4A005B4146 /* Stickers.xcstickers */,
+				5860AD841D998B4A005B4146 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5860AD841D998B4A005B4146 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5860AD831D998B4A005B4146 /* Vegan Stickers.app */,
+				5860AD871D998B4A005B4146 /* StickerPackExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5860AD821D998B4A005B4146 /* Vegan Stickers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5860AD941D998B4A005B4146 /* Build configuration list for PBXNativeTarget "Vegan Stickers" */;
+			buildPhases = (
+				5860AD811D998B4A005B4146 /* Resources */,
+				5860AD931D998B4A005B4146 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5860AD8A1D998B4A005B4146 /* PBXTargetDependency */,
+			);
+			name = "Vegan Stickers";
+			productName = "Vegan Stickers";
+			productReference = 5860AD831D998B4A005B4146 /* Vegan Stickers.app */;
+			productType = "com.apple.product-type.application.messages";
+		};
+		5860AD861D998B4A005B4146 /* StickerPackExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5860AD901D998B4A005B4146 /* Build configuration list for PBXNativeTarget "StickerPackExtension" */;
+			buildPhases = (
+				5860AD851D998B4A005B4146 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StickerPackExtension;
+			productName = StickerPackExtension;
+			productReference = 5860AD871D998B4A005B4146 /* StickerPackExtension.appex */;
+			productType = "com.apple.product-type.app-extension.messages-sticker-pack";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5860AD7D1D998B4A005B4146 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "David Miotti";
+				TargetAttributes = {
+					5860AD821D998B4A005B4146 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 659B2N7HE9;
+						ProvisioningStyle = Automatic;
+					};
+					5860AD861D998B4A005B4146 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 659B2N7HE9;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 5860AD801D998B4A005B4146 /* Build configuration list for PBXProject "Vegan Stickers" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5860AD7C1D998B4A005B4146;
+			productRefGroup = 5860AD841D998B4A005B4146 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5860AD821D998B4A005B4146 /* Vegan Stickers */,
+				5860AD861D998B4A005B4146 /* StickerPackExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5860AD811D998B4A005B4146 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5860AD8D1D998B4A005B4146 /* Stickers.xcstickers in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5860AD851D998B4A005B4146 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5860AD8C1D998B4A005B4146 /* Stickers.xcstickers in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5860AD8A1D998B4A005B4146 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5860AD861D998B4A005B4146 /* StickerPackExtension */;
+			targetProxy = 5860AD891D998B4A005B4146 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5860AD8E1D998B4A005B4146 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5860AD8F1D998B4A005B4146 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5860AD911D998B4A005B4146 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				DEVELOPMENT_TEAM = 659B2N7HE9;
+				INFOPLIST_FILE = StickerPackExtension/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.davidmiotti.Vegan-Stickers.StickerPackExtension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		5860AD921D998B4A005B4146 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				DEVELOPMENT_TEAM = 659B2N7HE9;
+				INFOPLIST_FILE = StickerPackExtension/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.davidmiotti.Vegan-Stickers.StickerPackExtension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		5860AD951D998B4A005B4146 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				DEVELOPMENT_TEAM = 659B2N7HE9;
+				INFOPLIST_FILE = "Vegan Stickers/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.davidmiotti.Vegan-Stickers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5860AD961D998B4A005B4146 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				DEVELOPMENT_TEAM = 659B2N7HE9;
+				INFOPLIST_FILE = "Vegan Stickers/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.davidmiotti.Vegan-Stickers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5860AD801D998B4A005B4146 /* Build configuration list for PBXProject "Vegan Stickers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5860AD8E1D998B4A005B4146 /* Debug */,
+				5860AD8F1D998B4A005B4146 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5860AD901D998B4A005B4146 /* Build configuration list for PBXNativeTarget "StickerPackExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5860AD911D998B4A005B4146 /* Debug */,
+				5860AD921D998B4A005B4146 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5860AD941D998B4A005B4146 /* Build configuration list for PBXNativeTarget "Vegan Stickers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5860AD951D998B4A005B4146 /* Debug */,
+				5860AD961D998B4A005B4146 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5860AD7D1D998B4A005B4146 /* Project object */;
+}
